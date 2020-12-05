@@ -13,7 +13,7 @@
       <front-end-engineer />
     </div>
     <div id="userimg" class="col-md-12 col-lg-4 text-center">
-      <img src="@/static/img/mine.png" style="border-radius:50%;max-width:50%">
+      <img src="@/static/img/mine.png" style="border-radius:50%;width:300px;height:300px">
     </div>
     <div class="col-md-12 col-lg-4 text-white text-center">
       <h3 class="mb-2">
