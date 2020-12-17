@@ -35,7 +35,7 @@
             <a target="_blank" href="https://applelizihao.github.io/driver/index.html">驾考一点通</a>
           </li>
           <li class="mx-2">
-            <a target="_blank" href="http://119.29.200.195:888/user/login">博客CMS系统 <span class="text-danger" style="font-size:12px">(*开发中)</span></a>
+            <a target="_blank" href="http://www.datasview.com/user/login">博客CMS系统 <span class="text-danger" style="font-size:12px">(*开发中)</span></a>
           </li>
         </ul>
       </div>

@@ -87,7 +87,7 @@
           Nov 2020 - Dec 2020
         </h3>
         <h2>
-          <a href="http://119.29.200.195:888/user/login" class="text-white text-decoration-none" target="_blank">博客CMS系统</a>
+          <a href="http://www.datasview.com/user/login" class="text-white text-decoration-none" target="_blank">博客CMS系统</a>
         </h2>
         <div>
           <p class="mb-0">
