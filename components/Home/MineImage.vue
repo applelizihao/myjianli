@@ -54,9 +54,8 @@
               涌现科技 Aug 2020 - Dec 2020
             </p>
             <p style="font-size: 13px">
-              类似做github项目 用vuejs+bootstrap技术写
-              参与git分支图逻辑参与与实现，merge合并创建根据后端返回的数据进行前端页面展示。利用nuxtjs
-              ssr渲染进行project页面进行seo优化，利用docker打包成镜像交付给后端进行自动化部署
+              主导一个github站点前端的制作,用vuejs+bootstrap技术编写,运用vuex全家桶,nuxtJs技术,参与git分支图（Graph）实现,完成下拉滚动无缝加载commit,并将这些commit进行绑定支付功能,调用第三方Strip国际支付完成功能,实现订单支付流程,订单交易流水图标。完成Wiki,Issue提问,回复,模块功能实现,。实现merge合并创建根据后端返回的数据进行前端页面展示与功能实现,类似GitlabMerge页面合并功能。利用nuxtjs
+              ssr渲染进行project页面进行seo优化，利用docker打包成镜像交付给后端进行自动化部署。
             </p>
           </li>
         </ul>
