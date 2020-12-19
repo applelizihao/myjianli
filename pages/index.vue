@@ -2,7 +2,8 @@
   <div>
     <Header />
     <div class="container">
-      <MineImage />
+      <!--  eslint-disable-next-line vue/attribute-hyphenation -->
+      <MineImage :listData="listData" />
       <!--  eslint-disable-next-line vue/attribute-hyphenation -->
       <curriculum-list :listData="listData" class="mt-3" />
     </div>
@@ -68,7 +69,9 @@ export default {
   computed: {},
   watch: {},
   created () {},
-  mounted () {},
+  mounted () {
+
+  },
   methods: {},
   head () {
     return {

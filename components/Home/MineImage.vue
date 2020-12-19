@@ -27,25 +27,11 @@
       <div class="mt-3">
         <h3>项目案例</h3>
         <ul class="list-unstyled d-flex justify-content-center flex-wrap">
-          <li class="mx-2">
-            <a target="_blank" href="https://www.wayon.com">威洋石材</a>
-          </li>
-          <li class="mx-2">
-            <a target="_blank" href="https://www.rifeng.com/">日丰</a>
-          </li>
-          <li class="mx-2">
-            <a
-              target="_blank"
-              href="https://applelizihao.github.io/driver/index.html"
-            >驾考一点通</a>
-          </li>
-          <li class="mx-2">
-            <a
-              target="_blank"
-              href="http://www.datasview.com/user/login"
-            >博客CMS系统
-            </a>
-          </li>
+          <template v-for="(item,index) in listData">
+            <li :key="index" class="mx-2 project-title">
+              <a target="_blank" :href="item.link" style="font-size:14px">{{ item.title }}</a>
+            </li>
+          </template>
         </ul>
       </div>
     </div>
@@ -88,6 +74,12 @@ export default {
     FrontEndEngineer,
     DevOps
   },
+  props: {
+    listData: {
+      type: Array,
+      default: null
+    }
+  },
   data () {
     return {}
   },
@@ -104,7 +96,12 @@ export default {
     margin: 30px 0;
   }
 }
-
+.project-title a{
+  color:white
+}
+.project-title a:hover{
+  color: rgb(36, 104, 230);
+}
 .svg-group svg {
   margin: 5px 5px;
 }

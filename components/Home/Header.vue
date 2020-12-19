@@ -1,6 +1,6 @@
 <template>
   <header class="py-3 px-5 d-flex justify-content-between">
-    <h1 class="text-white h4">
+    <h1 class="text-white h4" @click="print">
       @李梓豪
     </h1>
     <ul class=" list-unstyled d-flex">
@@ -33,7 +33,15 @@ export default {
   watch: {},
   created () {},
   mounted () {},
-  methods: {}
+  methods: {
+    print () {
+      document.getElementById('userimg').style.display = 'none'
+      // 调用打印功能
+      window.print()
+      document.getElementById('userimg').style.display = 'block'
+    }
+
+  }
 }
 </script>
 <style scoped>
