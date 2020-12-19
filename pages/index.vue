@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="background:#012f56">
     <Header />
     <div class="container">
       <!--  eslint-disable-next-line vue/attribute-hyphenation -->
@@ -57,7 +57,7 @@ export default {
         tags: ['PHP', 'CodeIgniter3', 'HTML', 'JavaScript', 'BootStrap', 'Jquery']
       }, {
         title: '驾考一点通APP',
-        description: 'https://applelizihao.github.io/driver/index.html',
+        description: '利用VUE,根据驾考一点通的排版模仿出来,题型数据利用JSON文件保存到本地,答题系统内有错题本系统,答题错误时将保存到本地储存里面,内置有收藏提醒系统,答题错误时还能报出该题型正确答案的因果关系',
         link: 'https://applelizihao.github.io/driver/index.html#/',
         time: 'April 2019 - May 2019',
         advantage: ['错题本模块', '收藏本模块', '数据以JSON形式存放,含有科一和科四题型', '实现限制答题', '考试模块', '练习题模块', '答错提示模块'],
