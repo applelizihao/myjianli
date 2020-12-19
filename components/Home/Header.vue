@@ -7,8 +7,8 @@
       <li id="weixin_li" class="text-white mx-2 position-relative">
         <a class="text-white h4">
           <i class="fa fa-weixin" />
+          <img id="weixin" width="100" class="position-absolute" src="@/static/img/weixin.jpg">
         </a>
-        <img id="weixin" width="100" class="position-absolute" src="@/static/img/weixin.jpg">
       </li>
       <li class="text-white mx-2">
         <a class="text-white h4" target="_blank" href="https://wpa.qq.com/msgrd?v=3&uin=2184724790&site=qq&menu=yes">
@@ -39,13 +39,12 @@ export default {
 <style scoped>
  #weixin{
     transition: all .3s;
-    opacity: 0;
+    display: none;
     z-index: 999;
     left: -30px;
     top: 40px;
   }
   #weixin_li:hover #weixin{
-    opacity: 1;
+    display: block;
   }
-
 </style>
