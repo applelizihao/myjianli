@@ -1,3 +1,4 @@
+const nowtime = new Date()
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -36,7 +37,8 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    '@nuxtjs/sitemap'
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
@@ -44,5 +46,26 @@ export default {
     extractCSS: {
       ignoreOrder: true
     }
+  },
+  sitemap: {
+    hostname: 'https://www.leesinhao.com',
+    gzip: true,
+    exclude: [
+      '/secret',
+      '/admin/**'
+    ],
+    defaults: {
+      changefreq: 'weekly',
+      priority: 0.9,
+      lastmod: nowtime
+    },
+    routes: [
+      {
+        url: '/',
+        changefreq: 'weekly',
+        priority: 1,
+        lastmod: nowtime
+      }
+    ]
   }
 }
