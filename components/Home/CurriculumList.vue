@@ -4,7 +4,7 @@
       <template v-for="(item,index) in listData">
         <li :key="index" class="curriculum-item" :class="{'curriculum-item--reverse':index%2==0}">
           <time>
-            Dec 2019 - Feb 2020
+            {{ item.time }}
           </time>
           <h2>
             <a :href="item.link" class="text-white text-decoration-none" target="_blank">{{ item.title }}</a>

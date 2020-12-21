@@ -43,7 +43,7 @@
         <ul class="list-unstyled d-flex flex-wrap p-0">
           <li>
             <p class="m-0">
-              多谷网络科技有限公司 May 2019 - July 2020
+              多谷网络科技有限公司 2019.5 - 2020.7
             </p>
             <p style="font-size: 13px">
               在该公司负责前后端cms建站开发，利用基于ci框架进行建站，一年制作完成的项目一百余个，基本日常工作跟客服沟通，跟业务了解需求，还原美工设计图，了解后进行数据绑定和功能实现。
@@ -51,7 +51,7 @@
           </li>
           <li>
             <p class="m-0">
-              涌现科技 Aug 2020 - Dec 2020
+              涌现科技 2020.8 - 2020.12
             </p>
             <p style="font-size: 13px">
               主导一个github站点前端的制作,用vuejs+bootstrap技术编写,运用vuex全家桶,nuxtJs技术,参与git分支图（Graph）实现,完成下拉滚动无缝加载commit,并将这些commit进行绑定支付功能,调用第三方Strip国际支付完成功能,实现订单支付流程,订单交易流水图标。完成Wiki,Issue提问,回复,模块功能实现,。实现merge合并创建根据后端返回的数据进行前端页面展示与功能实现,类似GitlabMerge页面合并功能。利用nuxtjs
